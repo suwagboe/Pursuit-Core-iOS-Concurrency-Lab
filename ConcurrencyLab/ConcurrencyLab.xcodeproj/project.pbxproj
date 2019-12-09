@@ -14,6 +14,7 @@
 		555DDEA9239EDD9C007B12B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555DDEA8239EDD9C007B12B5 /* Assets.xcassets */; };
 		555DDEAC239EDD9C007B12B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555DDEAA239EDD9C007B12B5 /* LaunchScreen.storyboard */; };
 		555DDEB7239EDD9D007B12B5 /* ConcurrencyLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DDEB6239EDD9D007B12B5 /* ConcurrencyLabTests.swift */; };
+		555DDEC2239EE074007B12B5 /* countryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 555DDEC1239EE074007B12B5 /* countryList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		555DDEB2239EDD9C007B12B5 /* ConcurrencyLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555DDEB6239EDD9D007B12B5 /* ConcurrencyLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyLabTests.swift; sourceTree = "<group>"; };
 		555DDEB8239EDD9D007B12B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555DDEC1239EE074007B12B5 /* countryList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countryList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				555DDE9F239EDD9A007B12B5 /* AppDelegate.swift */,
 				555DDEA1239EDD9A007B12B5 /* SceneDelegate.swift */,
 				555DDEA3239EDD9A007B12B5 /* ViewController.swift */,
+				555DDEC1239EE074007B12B5 /* countryList.json */,
 				555DDEA5239EDD9A007B12B5 /* Main.storyboard */,
 				555DDEA8239EDD9C007B12B5 /* Assets.xcassets */,
 				555DDEAA239EDD9C007B12B5 /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555DDEC2239EE074007B12B5 /* countryList.json in Resources */,
 				555DDEAC239EDD9C007B12B5 /* LaunchScreen.storyboard in Resources */,
 				555DDEA9239EDD9C007B12B5 /* Assets.xcassets in Resources */,
 				555DDEA7239EDD9A007B12B5 /* Main.storyboard in Resources */,
