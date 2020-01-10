@@ -25,7 +25,7 @@ class countryListCell: UITableViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        self.countryFlagImage = nil
+      //  self.countryFlagImage = nil
     }
 
    // country.alphacode in order to get the country code
@@ -34,7 +34,7 @@ class countryListCell: UITableViewCell {
         
        let urlString = "https://www.countryflags.io/\(country.alpha2Code)/flat/64.png"
         
-        countryFlagImage.getImage(with: urlString) { [weak self] (result) in
+        countryFlagImage.getImage(with: urlString) { [weak self] result in
             switch result {
                 
             case .failure:

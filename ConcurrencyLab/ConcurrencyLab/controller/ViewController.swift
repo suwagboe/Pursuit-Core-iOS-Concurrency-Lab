@@ -61,7 +61,7 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
        guard let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell", for: indexPath) as? countryListCell else {
-            fatalError("the cell name must be labels everywhere shaniya please check ALL parts\(error) ")
+            fatalError("the cell name must be labels everywhere shaniya please check ALL parts ")
         }
                 
         let selected =  country[indexPath.row]

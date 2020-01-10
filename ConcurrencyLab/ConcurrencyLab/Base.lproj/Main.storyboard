@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="144" width="414" height="752"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="countryCell" rowHeight="183" id="I1B-7f-UjS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="countryCell" rowHeight="183" id="I1B-7f-UjS" customClass="countryListCell" customModule="ConcurrencyLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="183"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I1B-7f-UjS" id="F29-oq-Dlf" customClass="countryListCell" customModule="ConcurrencyLab" customModuleProvider="target">
@@ -65,13 +65,13 @@
                                                 <constraint firstItem="956-55-wj6" firstAttribute="top" secondItem="0rx-Se-K43" secondAttribute="bottom" constant="35" id="eVf-Ci-UoJ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="idI-go-72e" secondAttribute="trailing" constant="26" id="ksu-fm-sh1"/>
                                             </constraints>
-                                            <connections>
-                                                <outlet property="countryCapitalLabel" destination="0rx-Se-K43" id="0No-Q8-myc"/>
-                                                <outlet property="countryFlagImage" destination="urQ-2I-tJP" id="TIo-qm-jQ2"/>
-                                                <outlet property="countryNameLabel" destination="idI-go-72e" id="fyp-5w-XoA"/>
-                                                <outlet property="countryPopLabel" destination="956-55-wj6" id="BcT-pK-oId"/>
-                                            </connections>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="countryCapitalLabel" destination="0rx-Se-K43" id="gLu-Tt-C9D"/>
+                                            <outlet property="countryFlagImage" destination="urQ-2I-tJP" id="aqg-46-RgB"/>
+                                            <outlet property="countryNameLabel" destination="idI-go-72e" id="qup-HL-AU3"/>
+                                            <outlet property="countryPopLabel" destination="956-55-wj6" id="Gwz-kj-orb"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
