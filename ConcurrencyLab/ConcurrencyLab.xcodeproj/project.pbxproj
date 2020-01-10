@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552C9DC523C800D30064AB6E /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C9DC423C800D30064AB6E /* detailsViewController.swift */; };
 		555DDEA0239EDD9A007B12B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DDE9F239EDD9A007B12B5 /* AppDelegate.swift */; };
 		555DDEA2239EDD9A007B12B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DDEA1239EDD9A007B12B5 /* SceneDelegate.swift */; };
 		555DDEA4239EDD9A007B12B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DDEA3239EDD9A007B12B5 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		552C9DC423C800D30064AB6E /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
 		555DDE9C239EDD9A007B12B5 /* ConcurrencyLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555DDE9F239EDD9A007B12B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555DDEA1239EDD9A007B12B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				555DDEA3239EDD9A007B12B5 /* ViewController.swift */,
+				552C9DC423C800D30064AB6E /* detailsViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				55E7F29423A3132D00681DE7 /* UIImageView + Extension.swift in Sources */,
 				555DDEA0239EDD9A007B12B5 /* AppDelegate.swift in Sources */,
 				55CE80F6239EF9CE0062D888 /* NetworkHelper.swift in Sources */,
+				552C9DC523C800D30064AB6E /* detailsViewController.swift in Sources */,
 				555DDEA2239EDD9A007B12B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

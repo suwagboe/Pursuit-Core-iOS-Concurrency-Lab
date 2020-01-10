@@ -17,15 +17,20 @@ import Foundation
  Selecting on a cell should segue to another View Controller
  */
 struct Country: Codable {
-    let name: String
+    var name: String
     let alpha2Code: String
     let region: String
     let population: Int
-    
+    let capital: String
+    let currencyInfo: [Currencies]
     //let 
     
 }
 
+struct  Currencies: Codable {
+    let code: String
+    let symbol: String
+}
 
 extension Country {
     
