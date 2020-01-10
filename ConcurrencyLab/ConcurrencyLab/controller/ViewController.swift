@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         searchBar.delegate = self
         loadData()
-        
+        tableView.delegate = self
         // enteredText = "l"
         
     }
@@ -91,3 +91,9 @@ extension ViewController: UISearchBarDelegate {
     }
 }
 
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150
+        
+    }
+}
